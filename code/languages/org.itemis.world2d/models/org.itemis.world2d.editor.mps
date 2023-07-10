@@ -12,8 +12,8 @@
     <import index="itrz" ref="r:80fb0853-eb3b-4e84-aebd-cc7fdb011d97(org.iets3.core.base.editor)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="wfa7" ref="r:5cbb99b3-109d-41a0-9f3d-5c45b7d64709(org.itemis.world2d.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -139,28 +139,10 @@
   <node concept="24kQdi" id="6Asc$CvgZZh">
     <ref role="1XX52x" to="wfa7:6Asc$CvgZXX" resolve="World2D" />
     <node concept="3EZMnI" id="6Asc$CvgZZj" role="2wV5jI">
-      <node concept="3EZMnI" id="6Asc$CvgZZq" role="3EZMnx">
-        <node concept="VPM3Z" id="6Asc$CvgZZs" role="3F10Kt" />
-        <node concept="3F0ifn" id="6Asc$CvgZZ$" role="3EZMnx">
-          <property role="3F0ifm" value="world2d" />
-        </node>
-        <node concept="2iRfu4" id="6Asc$CvgZZv" role="2iSdaV" />
-        <node concept="3F0A7n" id="6Asc$CvgZZE" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
       <node concept="2iRkQZ" id="6Asc$CvgZZm" role="2iSdaV" />
-      <node concept="3F0ifn" id="6Asc$CvgZZI" role="3EZMnx" />
-      <node concept="3EZMnI" id="6At7l0NqP9H" role="3EZMnx">
-        <node concept="2iRfu4" id="6At7l0NqP9I" role="2iSdaV" />
-        <node concept="3F0ifn" id="6At7l0NqP9o" role="3EZMnx">
-          <property role="3F0ifm" value="x-range:" />
-        </node>
-        <node concept="3F1sOY" id="6At7l0NqP9Z" role="3EZMnx">
-          <ref role="1NtTu8" to="wfa7:6At7l0NqP9k" resolve="x_range" />
-        </node>
+      <node concept="PMmxH" id="56ab_KnSP$n" role="3EZMnx">
+        <ref role="PMmxG" node="56ab_KnSPzO" resolve="World2DHeaderEditorComponent" />
       </node>
-      <node concept="3F0ifn" id="6At7l0NqP9y" role="3EZMnx" />
       <node concept="3F2HdR" id="6Asc$CvgZZX" role="3EZMnx">
         <ref role="1NtTu8" to="wfa7:6Asc$CvgZZf" resolve="elements" />
         <node concept="2iRkQZ" id="6Asc$CvgZZZ" role="2czzBx" />
@@ -561,28 +543,10 @@
   <node concept="24kQdi" id="TGjk$xz4sp">
     <ref role="1XX52x" to="wfa7:6Asc$CvgZXX" resolve="World2D" />
     <node concept="3EZMnI" id="TGjk$xz4sq" role="2wV5jI">
-      <node concept="3EZMnI" id="TGjk$xz4sr" role="3EZMnx">
-        <node concept="VPM3Z" id="TGjk$xz4ss" role="3F10Kt" />
-        <node concept="3F0ifn" id="TGjk$xz4st" role="3EZMnx">
-          <property role="3F0ifm" value="world2d" />
-        </node>
-        <node concept="2iRfu4" id="TGjk$xz4su" role="2iSdaV" />
-        <node concept="3F0A7n" id="TGjk$xz4sv" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
+      <node concept="PMmxH" id="56ab_KnSP$3" role="3EZMnx">
+        <ref role="PMmxG" node="56ab_KnSPzO" resolve="World2DHeaderEditorComponent" />
       </node>
       <node concept="2iRkQZ" id="TGjk$xz4sw" role="2iSdaV" />
-      <node concept="3F0ifn" id="TGjk$xz4sx" role="3EZMnx" />
-      <node concept="3EZMnI" id="TGjk$xz4sy" role="3EZMnx">
-        <node concept="2iRfu4" id="TGjk$xz4sz" role="2iSdaV" />
-        <node concept="3F0ifn" id="TGjk$xz4s$" role="3EZMnx">
-          <property role="3F0ifm" value="x-range:" />
-        </node>
-        <node concept="3F1sOY" id="TGjk$xz4s_" role="3EZMnx">
-          <ref role="1NtTu8" to="wfa7:6At7l0NqP9k" resolve="x_range" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="TGjk$xz4sA" role="3EZMnx" />
       <node concept="2rfBfz" id="TGjk$xz4t0" role="3EZMnx">
         <node concept="2reSaE" id="56ab_KnH9Yo" role="2rf8GZ">
           <ref role="2reCK$" to="wfa7:6Asc$CvgZZf" resolve="elements" />
@@ -879,6 +843,35 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="56ab_KnSPzO">
+    <property role="TrG5h" value="World2DHeaderEditorComponent" />
+    <ref role="1XX52x" to="wfa7:6Asc$CvgZXX" resolve="World2D" />
+    <node concept="3EZMnI" id="56ab_KnSPzP" role="2wV5jI">
+      <node concept="VPM3Z" id="56ab_KnSPzQ" role="3F10Kt" />
+      <node concept="3EZMnI" id="56ab_KnSPzR" role="3EZMnx">
+        <node concept="VPM3Z" id="56ab_KnSPzS" role="3F10Kt" />
+        <node concept="3F0ifn" id="56ab_KnSPzT" role="3EZMnx">
+          <property role="3F0ifm" value="world2d" />
+        </node>
+        <node concept="2iRfu4" id="56ab_KnSPzU" role="2iSdaV" />
+        <node concept="3F0A7n" id="56ab_KnSPzV" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="56ab_KnSPzW" role="3EZMnx" />
+      <node concept="3EZMnI" id="56ab_KnSPzX" role="3EZMnx">
+        <node concept="2iRfu4" id="56ab_KnSPzY" role="2iSdaV" />
+        <node concept="3F0ifn" id="56ab_KnSPzZ" role="3EZMnx">
+          <property role="3F0ifm" value="x-range:" />
+        </node>
+        <node concept="3F1sOY" id="56ab_KnSP$0" role="3EZMnx">
+          <ref role="1NtTu8" to="wfa7:6At7l0NqP9k" resolve="x_range" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="56ab_KnSP$1" role="3EZMnx" />
+      <node concept="2iRkQZ" id="56ab_KnSP$2" role="2iSdaV" />
     </node>
   </node>
 </model>
