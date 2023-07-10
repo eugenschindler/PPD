@@ -129,6 +129,10 @@
         <child id="5662204344887343006" name="style" index="1geGt4" />
       </concept>
       <concept id="5662204344885763446" name="de.slisson.mps.tables.structure.TableStyle" flags="ng" index="1g0IQG" />
+      <concept id="3785936898438629036" name="de.slisson.mps.tables.structure.ShadeColor" flags="lg" index="3hWdWw" />
+      <concept id="3785936898438263806" name="de.slisson.mps.tables.structure.ColorTableStyleItem" flags="lg" index="3hZEDM">
+        <property id="1186403713874" name="color" index="Vb097" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -586,6 +590,9 @@
         <node concept="2reCLy" id="TGjk$xzBKk" role="2reCL6">
           <node concept="3F0A7n" id="TGjk$xzBKo" role="2reSmM">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3hWdWw" id="56ab_KnVLLP" role="3F10Kt">
+              <property role="Vb097" value="fLwANPq/yellow" />
+            </node>
           </node>
           <node concept="2rfbtV" id="TGjk$x$e3m" role="2recC9">
             <property role="2rfbtB" value="name" />
@@ -644,6 +651,9 @@
         <node concept="2reCLy" id="TGjk$xA7Cu" role="2reCL6">
           <node concept="3F0A7n" id="TGjk$xA7CV" role="2reSmM">
             <ref role="1NtTu8" to="wfa7:6Asc$Cvhcuo" resolve="angle" />
+            <node concept="3hWdWw" id="56ab_KnVkIQ" role="3F10Kt">
+              <property role="Vb097" value="fLJRk5A/lightGray" />
+            </node>
           </node>
           <node concept="2rfbtV" id="TGjk$xA7Dn" role="2recC9">
             <property role="2rfbtB" value="angle" />
@@ -652,6 +662,9 @@
         <node concept="2reCLy" id="TGjk$xA7B$" role="2reCL6">
           <node concept="3F0A7n" id="TGjk$xA7C2" role="2reSmM">
             <ref role="1NtTu8" to="wfa7:6Asc$CvhhpZ" resolve="withCollisions" />
+            <node concept="3hWdWw" id="56ab_KnX7IQ" role="3F10Kt">
+              <property role="Vb097" value="fLJRk5A/lightGray" />
+            </node>
           </node>
           <node concept="2rfbtV" id="TGjk$xA7Dp" role="2recC9">
             <property role="2rfbtB" value="collisions?" />
@@ -681,6 +694,9 @@
         <node concept="2reCLy" id="TGjk$x_rZu" role="2reCL6">
           <node concept="3F0A7n" id="TGjk$x_rZv" role="2reSmM">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3hWdWw" id="56ab_KnVLLU" role="3F10Kt">
+              <property role="Vb097" value="fLwANPp/orange" />
+            </node>
           </node>
           <node concept="2rfbtV" id="TGjk$x_rZw" role="2recC9">
             <property role="2rfbtB" value="name" />
@@ -721,9 +737,17 @@
         <node concept="2reCLy" id="TGjk$xAwa4" role="2reCL6">
           <node concept="3F0A7n" id="TGjk$xAwap" role="2reSmM">
             <ref role="1NtTu8" to="wfa7:6Asc$CvhtL$" resolve="radius" />
+            <node concept="3hWdWw" id="56ab_KnVkIS" role="3F10Kt">
+              <property role="Vb097" value="fLJRk5A/lightGray" />
+            </node>
           </node>
           <node concept="2rfbtV" id="TGjk$xAwas" role="2recC9">
             <property role="2rfbtB" value="radius" />
+            <node concept="1g0IQG" id="56ab_KnX$pB" role="1geGt4">
+              <node concept="3hWdWw" id="56ab_KnX$pD" role="3F10Kt">
+                <property role="Vb097" value="fLJRk5A/lightGray" />
+              </node>
+            </node>
           </node>
           <node concept="1g0IQG" id="TGjk$xATGe" role="1geGt4" />
         </node>
@@ -754,6 +778,9 @@
         <node concept="2reCLy" id="56ab_KnH9Zn" role="2reCL6">
           <node concept="3F0A7n" id="56ab_KnH9Zr" role="2reSmM">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3hWdWw" id="56ab_KnWerf" role="3F10Kt">
+              <property role="Vb097" value="fLwANPr/green" />
+            </node>
           </node>
           <node concept="2rfbtV" id="56ab_KnH9Zu" role="2recC9">
             <property role="2rfbtB" value="name" />
@@ -823,6 +850,9 @@
         <node concept="2reCLy" id="56ab_KnKxLC" role="2reCL6">
           <node concept="3F0A7n" id="56ab_KnKxLL" role="2reSmM">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3hWdWw" id="56ab_KnWF4P" role="3F10Kt">
+              <property role="Vb097" value="hGRnIZc/lightBlue" />
+            </node>
           </node>
           <node concept="2rfbtV" id="56ab_KnKxLO" role="2recC9">
             <property role="2rfbtB" value="name" />
@@ -846,6 +876,9 @@
         </node>
         <node concept="2reCLy" id="56ab_KnKxLY" role="2reCL6">
           <node concept="3EZMnI" id="56ab_KnKxMa" role="2reSmM">
+            <node concept="3hWdWw" id="56ab_KnX7IO" role="3F10Kt">
+              <property role="Vb097" value="fLJRk5A/lightGray" />
+            </node>
             <node concept="3F2HdR" id="56ab_KnKxMh" role="3EZMnx">
               <property role="2czwfO" value="," />
               <ref role="1NtTu8" to="wfa7:6At7l0LYYMn" resolve="bodies" />
