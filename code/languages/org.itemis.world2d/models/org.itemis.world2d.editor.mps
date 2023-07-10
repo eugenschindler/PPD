@@ -131,12 +131,16 @@
       <concept id="5662204344885763446" name="de.slisson.mps.tables.structure.TableStyle" flags="ng" index="1g0IQG" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
   <node concept="24kQdi" id="6Asc$CvgZZh">
+    <property role="3GE5qa" value="textual" />
     <ref role="1XX52x" to="wfa7:6Asc$CvgZXX" resolve="World2D" />
     <node concept="3EZMnI" id="6Asc$CvgZZj" role="2wV5jI">
       <node concept="2iRkQZ" id="6Asc$CvgZZm" role="2iSdaV" />
@@ -150,6 +154,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6Asc$Cvh00g">
+    <property role="3GE5qa" value="textual" />
     <ref role="1XX52x" to="wfa7:6Asc$Cvh008" resolve="Box2D" />
     <node concept="3EZMnI" id="6Asc$Cvhjpj" role="2wV5jI">
       <node concept="2iRkQZ" id="6Asc$Cvhjpk" role="2iSdaV" />
@@ -266,6 +271,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6Asc$Cvhvvx">
+    <property role="3GE5qa" value="textual" />
     <ref role="1XX52x" to="wfa7:6Asc$CvhtLu" resolve="Circle2D" />
     <node concept="3EZMnI" id="6Asc$CvhvEv" role="2wV5jI">
       <node concept="2iRkQZ" id="6Asc$CvhvEw" role="2iSdaV" />
@@ -382,6 +388,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6At7l0LVXhv">
+    <property role="3GE5qa" value="textual" />
     <ref role="1XX52x" to="wfa7:6At7l0LVHIJ" resolve="Joint2D" />
     <node concept="3EZMnI" id="6At7l0LVXhx" role="2wV5jI">
       <node concept="2iRkQZ" id="6At7l0LVXhy" role="2iSdaV" />
@@ -466,6 +473,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6At7l0LYYNf">
+    <property role="3GE5qa" value="textual" />
     <ref role="1XX52x" to="wfa7:6At7l0LYYLD" resolve="MovingPart2D" />
     <node concept="3EZMnI" id="6At7l0LYYNk" role="2wV5jI">
       <node concept="3EZMnI" id="6At7l0LYYNr" role="3EZMnx">
@@ -537,7 +545,7 @@
     <property role="TrG5h" value="World2DHints" />
     <node concept="2BsEeg" id="TGjk$xz4rX" role="2ABdcP">
       <property role="2gpH_U" value="true" />
-      <property role="TrG5h" value="TABLE1" />
+      <property role="TrG5h" value="TABLE" />
     </node>
   </node>
   <node concept="24kQdi" id="TGjk$xz4sp">
@@ -560,6 +568,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="TGjk$xzBEr">
+    <property role="3GE5qa" value="table1" />
     <ref role="1XX52x" to="wfa7:6Asc$Cvh008" resolve="Box2D" />
     <node concept="2aJ2om" id="TGjk$xzBK5" role="CpUAK">
       <ref role="2$4xQ3" node="TGjk$xz4rX" resolve="TABLE" />
@@ -654,6 +663,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="TGjk$x_rYG">
+    <property role="3GE5qa" value="table1" />
     <ref role="1XX52x" to="wfa7:6Asc$CvhtLu" resolve="Circle2D" />
     <node concept="2aJ2om" id="TGjk$x_rZl" role="CpUAK">
       <ref role="2$4xQ3" node="TGjk$xz4rX" resolve="TABLE" />
@@ -726,6 +736,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="56ab_KnH9Yr">
+    <property role="3GE5qa" value="table1" />
     <ref role="1XX52x" to="wfa7:6At7l0LVHIJ" resolve="Joint2D" />
     <node concept="2aJ2om" id="56ab_KnH9YY" role="CpUAK">
       <ref role="2$4xQ3" node="TGjk$xz4rX" resolve="TABLE" />
@@ -794,6 +805,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="56ab_KnKxL0">
+    <property role="3GE5qa" value="table1" />
     <ref role="1XX52x" to="wfa7:6At7l0LYYLD" resolve="MovingPart2D" />
     <node concept="2aJ2om" id="56ab_KnKxLi" role="CpUAK">
       <ref role="2$4xQ3" node="TGjk$xz4rX" resolve="TABLE" />
