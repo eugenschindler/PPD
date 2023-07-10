@@ -490,6 +490,11 @@
             <ref role="1Busuk" to="ip48:5wLtKNeSRRB" resolve="org.iets3.core.base" />
           </node>
         </node>
+        <node concept="1SiIV0" id="56ab_KnSP2S" role="3bR37C">
+          <node concept="3bR9La" id="56ab_KnSP2T" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:29so9Vb$6Th" resolve="de.slisson.mps.tables" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="3ZJK8lMfS2G" role="2G$12L">
         <property role="BnDLt" value="true" />
