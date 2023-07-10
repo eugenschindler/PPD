@@ -4500,8 +4500,8 @@
               <node concept="3clFbF" id="5hGvh47hEW1" role="3cqZAp">
                 <node concept="2OqwBi" id="5hGvh47hEVY" role="3clFbG">
                   <node concept="10M0yZ" id="5hGvh47hEVZ" role="2Oq$k0">
-                    <ref role="1PxDUh" to="wyt6:~System" />
-                    <ref role="3cqZAo" to="wyt6:~System.err" />
+                    <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                    <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
                   </node>
                   <node concept="liA8E" id="5hGvh47hEW0" role="2OqNvi">
                     <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
